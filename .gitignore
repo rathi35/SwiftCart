@@ -1,0 +1,42 @@
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# SwiftPM
+.swiftpm
+.build/
+Package.resolved
+
+
+# Debugging
+*.swp
+*.orig
+
+# IDEs
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Assets
+.DS_Store
+
+# Archive
+*.xcarchive
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# Bundle
+*.xcworkspace
