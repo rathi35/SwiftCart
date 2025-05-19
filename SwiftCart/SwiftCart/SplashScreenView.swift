@@ -13,7 +13,7 @@ struct SplashScreenView: View {
     
     var body: some View {
         if isActive {
-            ContentView()
+            MainTabView()
         } else {
             ZStack {
                 LinearGradient(
